@@ -1,0 +1,98 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lora", serif;
+  transition: all 0.3s;
+}
+
+body {
+  background: #952cb4;
+  min-height: 100vh;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 5vh;
+  padding: 5px;
+}
+
+#main {
+  position: absolute;
+  width: 80%;
+  max-width: 600px;
+  top: 23vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.warp{
+    min-height:45vh;
+}
+
+.container {
+  background: var(--color);
+  padding: 0;
+  overflow: hidden;
+  box-shadow: black 4px 4px 6px;
+  border-radius: 0.5em;
+}
+
+.container .quote {
+  font-size: 1.4em;
+  padding: 1.5em 1em 0.5em 1em;
+  text-align: justify;
+  font-family: "Delius Swash Caps", cursive;
+}
+
+.container .bottom {
+  background: #12121266;
+}
+
+.container .bottom p {
+  text-align: right;
+  padding: 0.8em;
+  font-size: 1.2em;
+}
+
+.btn {
+  margin: auto;
+  display: block;
+  margin-top: 1.5em;
+  padding: 00.2em 1em;
+  font-size: 1.3em;
+  border-radius: 0.3em;
+  color: white;
+  border: 2px solid transparent;
+  box-shadow: black 6px 5px 3px;
+  background-color: var(--color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: black 3px 3px 3px;
+  transform: translateY(4px);
+  border: 2px solid white;
+  }
+
+#twitter {
+  width: 35px;
+  height: 35px;
+  float: left;
+  color: var(--color);
+}
+
+@media only screen and (min-width: 600px) {
+  .container .quote {
+    font-size: 2em;
+  }
+}
